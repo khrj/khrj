@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 a[href="https://z.khushrajrathod.com/ls"] {
     color: white;
     position: absolute;
@@ -14,34 +15,37 @@ a[href="https://z.khushrajrathod.com/ls"] {
     align-items: center;
     justify-content: center;
     background: linear-gradient(
-        124deg,
-        #ff2400,
-        #e81d1d,
-        #d6a811,
+        124deg, 
+        #ff2400, 
+        #e81d1d, 
+        #d6a811, 
         #ced114, 
-        #1de840,
-        #1ddde8,
-        #2b1de8,
-        #dd00f3,
+        #1de840, 
+        #1ddde8, 
+        #2b1de8, 
+        #dd00f3, 
         #dd00f3
-     );
-     background-size: 1800% 1800%;
-     animation: rainbow-gradient 18s ease infinite;
+    );
+    background-size: 1800% 1800%;
+    animation: rainbow-gradient 18s ease infinite;
+    font-family: caveat, cursive;
+    font-size: 70px !important;
+    text-align: center;
 }
 
 @keyframes rainbow-gradient {
-  0% {
-    background-position: 0% 82%;
-  }
-  50% {
-    background-position: 100% 19%;
-  }
-  100% {
-    background-position: 0% 82%;
-  }
+    0% {
+        background-position: 0% 82%;
+    }
+    50% {
+        background-position: 100% 19%;
+    }
+    100% {
+        background-position: 0% 82%;
+    }
 }
 
-*  {
+* {
     padding: 0 !important;
     margin: 0 !important;
     overflow: visible !important;
