@@ -24,8 +24,8 @@ const dataset2 = data.slice(10, 20)
 for (let i = 0; i < 10; i++) {
     const { name: name1, stars: stars1, avatar: avatar1 } = dataset1[i]
     const { name: name2, stars: stars2, avatar: avatar2 } = dataset2[i]
-    table += `\n|${i + 1}.|${avatarFrom(name1, avatar1)}|${userLinkFrom(name1)}|${stars1}|`
-        + `${i + 11}.|${avatarFrom(name2, avatar2)}|${userLinkFrom(name2)}|${stars2}|`
+    table += `\n|${i + 1}.|${avatarFrom(name1, avatar1)}|${userLinkFrom(name1)}|${stars1} ★|`
+        + `${i + 11}.|${avatarFrom(name2, avatar2)}|${userLinkFrom(name2)}|${stars2} ★|`
 }
 
 const README = Deno.readTextFileSync("README.md")
