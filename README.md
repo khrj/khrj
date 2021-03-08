@@ -3,3 +3,7 @@
 		<img src="https://github.com/KhushrajRathod/KhushrajRathod/raw/main/info.svg?sanitize=true">
 	</a>
 </div>
+
+# Supporters
+
+--- WILL BE FILLED BY SCRIPT ---
