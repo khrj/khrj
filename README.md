@@ -1,10 +1,19 @@
-<div align="center">
-	<a href="https://z.khushrajrathod.com/ls">
-		<img src="https://github.com/KhushrajRathod/KhushrajRathod/raw/main/info.svg?sanitize=true">
-	</a>
-</div>
+# 🛠 Stack
+![](https://img.shields.io/badge/Editor-VSCode-informational?logo=visual-studio-code&logoColor=white&color=3069C6)
+![](https://img.shields.io/badge/Primary%20Language-TypeScript-informational?logo=typescript&logoColor=white&color=3178C6)
+![](https://img.shields.io/badge/Runtime-Deno-informational?logo=deno&logoColor=white&color=000000)
+![](https://img.shields.io/badge/Shell-Zsh-informational?logo=gnu-bash&logoColor=white&color=4EAA25) <br>
+![](https://img.shields.io/badge/Database-PostgreSQL-informational?logo=postgresql&logoColor=white&color=336791)
+![](https://img.shields.io/badge/ORM-Prisma-informational?logo=prisma&logoColor=white&color=2D3748)
+![](https://img.shields.io/badge/Learning-Rust-informational?logo=rust&logoColor=white&color=970A3F)
+![](https://img.shields.io/badge/OS-macOS-informational?logo=Apple&logoColor=white&color=000000)
 
-# Supporters
+# <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="45" height="35"> GitHub Stats
+
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=KhushrajRathod&count_private=true&show_icons=true&theme=vue&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KhushrajRathod&layout=compact&theme=buefy&hide_border=true)
+
+# 💖 Supporters
 
 |No.|PFP|Username|Stars|No.|PFP|Username|Stars|
 |-|-|-|-|-|-|-|-|
