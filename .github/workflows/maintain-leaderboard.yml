@@ -21,7 +21,7 @@ jobs:
           rm deno.zip
     
       - name: Make README
-        run: ./deno run -A scripts/makeReadme.ts
+        run: ./deno run --allow-net --allow-write --allow-read scripts/makeReadme.ts
         
       - name: Push to GitHub
         run: |
