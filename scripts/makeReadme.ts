@@ -1,5 +1,5 @@
 const dataURL = "https://profile-supporters.vercel.app/api/getJSON"
-const replaceRegex = /# Supporters\n\n(.*)/ms
+const replaceRegex = /# 💖 Supporters\n\n(.*)/ms
 
 interface Leaderboard {
     name: string
