@@ -1,0 +1,23 @@
+{
+    "$schema": "./renovate-schema.json",
+    "extends": [
+        "config:base"
+    ],
+    "packageRules": [
+        {
+            "matchUpdateTypes": ["minor", "patch", "pin", "digest", "bump", "lockFileMaintenance", "rollback"],
+            "automerge": true,
+            "automergeType": "branch"
+        }
+    ],
+    "addLabels": ["renovate"],
+    "bumpVersion": "patch",
+    "dependencyDashboard": true,
+    "lockFileMaintenance": {
+        "enabled": true
+    },
+    "schedule": [
+        "after 1:00am and before 9:00am"
+    ],
+    "timezone": "IN"
+}
