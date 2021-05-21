@@ -1,14 +1,18 @@
 {
     "$schema": "./renovate-schema.json",
     "extends": [
-        "config:base",
-        "group:all"
+        "config:base"
     ],
     "packageRules": [
         {
             "matchUpdateTypes": ["minor", "patch", "pin", "digest", "bump", "lockFileMaintenance", "rollback"],
+            "groupName": "all dependencies (non-major)",
             "automerge": true,
             "automergeType": "branch"
+        },
+        {
+            "matchUpdateTypes": ["major"],
+            "groupName": "all dependencies (major)"
         }
     ],
     "addLabels": ["renovate"],
