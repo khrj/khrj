@@ -10,8 +10,8 @@
 
 # <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="45" height="35"> GitHub Stats
 
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=KhushrajRathod&count_private=true&show_icons=true&theme=vue&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KhushrajRathod&layout=compact&theme=buefy&hide_border=true)
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=khrj&count_private=true&show_icons=true&theme=vue&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=khrj&layout=compact&theme=buefy&hide_border=true)
 
 # 💖 Supporters
 
