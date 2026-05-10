@@ -7,5 +7,5 @@
 ![](https://img.shields.io/badge/Database-PostgreSQL-informational?logo=postgresql&logoColor=white&color=336791)
 ![](https://img.shields.io/badge/ORM-Prisma-informational?logo=prisma&logoColor=white&color=2D3748)
 
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=khrj&count_private=true&show_icons=true&theme=vue&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=khrj&layout=compact&theme=buefy&hide_border=true)
+![My GitHub Stats](https://github-stats-extended.vercel.app/api?username=khrj&count_private=true&show_icons=true&theme=vue&hide_border=true)
+![Top languages](https://github-stats-extended.vercel.app/api/top-langs/?username=khrj&layout=compact&theme=buefy&hide_border=true)
