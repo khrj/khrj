@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Presentation: BGP/OSPF Backbone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            
+            <section>
+                <h2 style="color: #4facfe; text-transform: none;">Self-Healing Network Backbone</h2>
+                <h4 style="color: #cccccc; text-transform: none; font-weight: normal;">BGP / OSPF with Dynamic Traffic Shaping</h4>
+                <br>
+                <p style="font-size: 0.7em;"><strong>Khushraj Rathod</strong></p>
+                <p style="font-size: 0.6em; color: #888;">Practice School I | Carnot Research Pvt. Ltd.</p>
+            </section>
+
+            <section>
+                <h3 style="text-transform: none;">Decoding the Project</h3>
+                <br>
+                <ul>
+                    <li class="fragment" style="margin-bottom: 20px;"><strong>Self-Healing:</strong> Auto-detects link failures and reroutes traffic for zero downtime.</li>
+                    <li class="fragment" style="margin-bottom: 20px;"><strong>BGP / OSPF:</strong> Internal routing efficiency (OSPF) combined with external multi-network connections (BGP).</li>
+                    <li class="fragment" style="margin-bottom: 20px;"><strong>Traffic Shaping:</strong> Prioritizing bandwidth for critical applications by delaying non-essential data.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3 style="text-transform: none;">Simulation Methodology</h3>
+                <br>
+                <ul>
+                    <li class="fragment" style="margin-bottom: 20px;">
+                        <strong>Phase 1: Mock Labs</strong><br>
+                        <span style="font-size: 0.8em; color: #aaa;">Observed OSPF Link-State Advertisement (LSA) tables in isolated setups.</span>
+                    </li>
+                    <li class="fragment" style="margin-bottom: 20px;">
+                        <strong>Phase 2: Enterprise Sandbox</strong><br>
+                        <span style="font-size: 0.8em; color: #aaa;">Transitioned to Cisco Modeling Labs (CML) hosted on VMware.</span>
+                    </li>
+                    <li class="fragment" style="margin-bottom: 20px;">
+                        <strong>Why CML?</strong><br>
+                        <span style="font-size: 0.8em; color: #aaa;">Employs authentic Cisco IOS images for realistic protocol behavior testing.</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3 style="text-transform: none; color: #ff6b6b;">Roadblock: EIGRP Failures</h3>
+                <p style="font-size: 0.8em;">Routers refused to establish neighbor relationships despite active links.</p>
+                <br>
+                <ul>
+                    <li class="fragment" style="margin-bottom: 20px;">
+                        <strong>Root Cause 1: Mismatched AS Numbers</strong><br>
+                        <span style="font-size: 0.8em; color: #aaa;">Virtual routers were misconfigured with different Autonomous System numbers.</span>
+                    </li>
+                    <li class="fragment" style="margin-bottom: 20px;">
+                        <strong>Root Cause 2: Interface Suppression</strong><br>
+                        <span style="font-size: 0.8em; color: #aaa;">The <code>passive-interface</code> command was inadvertently blocking necessary hello packets.</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3 style="text-transform: none;">The Road Ahead</h3>
+                <br>
+                <ul>
+                    <li class="fragment" style="margin-bottom: 20px;"><strong>Practical BGP:</strong> Establishing multi-AS neighbor formations in the simulator.</li>
+                    <li class="fragment" style="margin-bottom: 20px;"><strong>Packet Analysis:</strong> Studying exact BGP data structures via simulated captures.</li>
+                    <li class="fragment" style="margin-bottom: 20px;"><strong>Optimization:</strong> Deploying the dynamic traffic shaping policies.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 style="text-transform: none; color: #4facfe;">Thank You</h2>
+                <p>Open for Questions</p>
+                <br>
+                <p style="font-size: 0.5em; color: #888;">Mentorship: Dr. (Col.) Amit Oberoi (Retd.) | Prof. Saikat Bhattacharjee</p>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            controls: true,
+            progress: true,
+            center: true,
+            transition: 'slide'
+        });
+    </script>
+</body>
+</html>
